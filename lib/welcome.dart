@@ -28,7 +28,7 @@ class _WelcomeState extends State<Welcome> {
             SizedBox(height: 10,),
             Center(child: Text('Kslash Flutter provide extra ordinary flutter tutorials.Do subscribe!',)),
            SizedBox(height: 20,),
-            CircleAvatar(radius:100,backgroundImage: NetworkImage('lib/images/img_2.png'),),
+            CircleAvatar(radius:100,backgroundImage: NetworkImage('images/img_5.png'),),
            SizedBox(height: 20,),
            ElevatedButton(onPressed:(){Navigator.push(context,
                MaterialPageRoute(builder: (context) => Login()));}, child: Text('login',style: TextStyle(

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 class Login extends StatefulWidget {
   const Login({Key? key}) : super(key: key);
@@ -43,14 +44,11 @@ class _LoginState extends State<Login> {
               border: OutlineInputBorder(borderSide: BorderSide(width: 100)),
             ),
           ),
-          TextButton(
-            onPressed: () {},
-            child: Text(
-              'Login',
-              style: TextStyle(color: Colors.blue),
-            ),
-            style: TextButton.styleFrom(foregroundColor: Colors.blue),
-          ),
+          ElevatedButton(onPressed:(){}, child: Text('LOG IN',style: TextStyle(
+            color: Colors.black, fontSize: 40, fontWeight: FontWeight.bold,),)),
+
+
+          Expanded(child: Container(child: Image.asset('images/img_6.png'))),
 
 
         ],
